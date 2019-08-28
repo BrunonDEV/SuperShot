@@ -13,3 +13,6 @@ You can't play SuperShot anymore, unless you clone this repo and get it to work.
 
 ### Some gameplay:
 * [YouTube Video](https://www.youtube.com/watch?v=N0w7tp0RNnI)
+
+### Changelog:
+* Kept in file [*changelog.html*](https://github.com/BrunonDEV/SuperShot/blob/master/changelog.html)
