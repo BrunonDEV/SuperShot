@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'space';
+    src: url('sunspire.otf'),
+		 url('sunspire.ttf') format('truetype');
+}
+
+body{
+    background-color: black;
+    font-family: 'Source Sans Pro', sans-serif;
+    width: 100%; height: 100%;
+    overflow: hidden;
+    text-align: center;
+    color: white;
+    font-size: 2vw;
+}
+
+#logo{
+	position: fixed;
+	color: white;
+	top: 13%;
+    width: 100%;
+    font-family: space;
+}
+
+#wrapper{
+    position: fixed;
+
+    width: 40%;
+    height: 70%;
+
+    left: 30%;
+    bottom: 0;
+
+    font-size: 1.0vw;
+    font-family: "Source Sans Pro", sans-serif;
+
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.clickable{ cursor: auto;  font-style: none; }
+.clickable:hover{ cursor: pointer; color: #4286f4; }
+
+a{
+	text-decoration: none;
+	color: white;
+}
+a:focus{
+	text-decoration: none;
+	color: white;
+}
+a:checked{
+	text-decoration: none;
+	color: white;
+}
+a:visited{
+	text-decoration: none;
+	color: white;
+}
+a:link{
+	text-decoration: none;
+	color: white;
+}
+a:hover{
+	text-decoration: none;
+	color: white;
+}
+a:active{
+	text-decoration: none;
+	color: white;
+}
+
+.ml10 {
+	position: relative;
+}
+
+.ml10 .text-wrapper {
+	position: relative;
+	display: inline-block;
+	padding-top: 0.2em;
+	padding-right: 0.05em;
+	padding-bottom: 0.1em;
+	overflow: hidden;
+}
+
+.ml10 .letter {
+	display: inline-block;
+	line-height: 1em;
+	transform-origin: 0 0;
+}

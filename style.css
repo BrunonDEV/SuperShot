@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c|Source+Sans+Pro');
+
+@font-face {
+    font-family: 'space';
+    src: url('sunspire.otf'),
+		 url('sunspire.ttf') format('truetype');
+}
+
+body{
+	color: black;
+	background: black;
+	/*background: url("graph/stars.jpg") center center;*/
+	background: black;
+	height: 100%;
+	width: 100%;
+	font-family: Consolas, Consolas;
+	overflow: hidden;
+	
+	cursor: auto;
+}
+
+#menu{
+	color: white;
+	
+	position: fixed;
+	top: 33%;
+	width: 100%;
+	text-align: center;
+	font-family: space;
+	font-size: 1.8vw;
+
+	line-height: 220%;
+}
+
+#logo{
+	position: fixed;
+	color: white;
+	top: 13%;
+	width: 100%;
+}
+
+#logo_inn{
+	text-align: center;
+	font-size: 3.5vw;
+	font-family: space, Fallback, sans-serif;;
+}
+
+#go_text{
+	position: fixed;
+	color: white;
+	top: 13%;
+	width: 100%;
+}
+
+#go_text_inn{
+	text-align: center;
+	font-size: 3.5vw;
+	font-family: space, Fallback, sans-serif;;
+}
+
+#go_menu{
+	color: white;
+	
+	position: fixed;
+	top: 40%;
+	width: 100%;
+	text-align: center;
+	font-family: space;
+	font-size: 1.8vw;
+}
+
+#go_score{
+	color: white;
+	
+	position: fixed;
+	bottom: 20%;
+	width: 100%;
+	text-align: center;
+	
+	font-size: 1.0vw;
+}
+
+#go_hint{
+	color: white;
+	
+	position: fixed;
+	bottom: 13%;
+	width: 100%;
+	text-align: center;
+	
+	font-size: 0.85vw;
+}
+
+#pause_menu{
+	display: none;
+	
+	color: white;
+	
+	position: fixed;
+	
+	top: 50%;
+	left: 50%;
+	
+	width: 20%;
+	height: 40%;
+	
+	text-align: center;
+	font-family: space;
+	font-size: 1.8vw;
+	
+	margin-left: -10%;
+	margin-top: -15%;
+}
+
+.pause_option{
+	text-align: center;
+	display: block;
+	
+	margin: 3%;
+}
+
+#option_menu{
+	display: none;
+	
+	color: white;
+	
+	position: fixed;
+	
+	top: 50%;
+	left: 50%;
+	
+	width: 20%;
+	height: 40%;
+	
+	text-align: center;
+	font-family: space;
+	font-size: 1.8vw;
+	
+	margin-left: -10%;
+	margin-top: -15%;
+}
+
+#darken{
+	display: none;
+	
+	background: black;
+	position: fixed;
+	
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	
+	opacity: 0.4;
+}
+
+#leaderboard{
+    position: fixed;
+    top: 16.5%;
+    right: 3%;
+    
+    width: 15%;
+    height: 15%;
+
+    color: white;
+    opacity: 0.9;
+
+	/*font-family: 'M PLUS Rounded 1c', sans-serif;*/
+	font-family: space;
+    font-size: 1.2vw;
+}
+
+#account{
+	position: fixed;
+	top: 16%;
+	left: 3%;
+
+	width: 15%;
+	height: 15%;
+
+	color: white;
+	opacity: 0.9;
+
+	font-family: space;
+}
+
+#account_name{
+	font-size: 2.2vw;
+}
+
+#tutorial_box{
+	position: absolute;
+	top: 0;
+	left: 0;
+	color: white;
+	font-family:'Source Sans Pro', sans-serif;
+	font-size: 1.2vw; 
+	width: 15%;
+	height: 20%;
+	text-align: center;
+	overflow: hidden;
+	text-shadow: 5px 5px 5px black;
+	font-weight: 500;
+}
+
+#cursor_box{
+	display: none;
+	position: fixed;
+
+	font-size: 1.0vw;
+	font-family: 'Source Sans Pro';
+	text-align: center;
+
+	background: white;
+	color: black; width: 10%; height: auto;
+	border: solid 1px black;
+
+	left: 0;
+	top: 0;
+
+	padding: 0.4%;
+	line-height: 110%;
+}
+
+#connection_info{
+	position: fixed;
+	display: table;
+
+	font-size: 1.3vw;
+	font-family: 'Source Sans Pro';
+	text-align: center;
+	font-weight: 120%;
+
+	background: red;
+	color: black;
+	border: solid 1px black;
+
+	right: -13.5%;
+	bottom: 10%;
+	width: 13%;
+	height: 5%;
+
+	line-height: 110%;
+}
+
+#connection_info_text{
+	display: table-cell;
+
+	vertical-align: middle;
+}
+
+.clickable{ cursor: auto;  font-style: none; }
+.clickable:hover{ cursor: pointer; color: #4286f4; }
+
+.unselectable{ -moz-user-select: none; -webkit-user-select: none; -ms-user-select: none; user-select: none; -o-user-select: none; }
+
+.italhover{ font-style: normal; }
+.italhover:hover{ font-style: italic; }
+
+.pointable{ cursor: auto; }
+.pointable:hover{ cursor: pointer; }
+
+.blur{
+	-webkit-filter: blur(3px);
+	-moz-filter: blur(3px);
+	-o-filter: blur(3px);
+	-ms-filter: blur(3px);
+	filter: blur(3px);
+}
+
+.disabled{
+	opacity: 0.5;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+a:focus{
+	text-decoration: none;
+	color: white;
+}
+a:checked{
+	text-decoration: none;
+	color: white;
+}
+a:visited{
+	text-decoration: none;
+	color: white;
+}
+a:link{
+	text-decoration: none;
+	color: white;
+}
+a:hover{
+	text-decoration: none;
+	color: white;
+}
+a:active{
+	text-decoration: none;
+	color: white;
+}
+
+.ml10 {
+	position: relative;
+}
+
+.ml10 .text-wrapper {
+	position: relative;
+	display: inline-block;
+	padding-top: 0.2em;
+	padding-right: 0.05em;
+	padding-bottom: 0.1em;
+	overflow: hidden;
+}
+
+.ml10 .letter {
+	display: inline-block;
+	line-height: 1em;
+	transform-origin: 0 0;
+}
